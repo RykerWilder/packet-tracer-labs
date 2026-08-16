@@ -60,7 +60,7 @@ SW-1F(config-if)#switchport mode trunk
 ### 5. Restricting the VLANs allowed on the trunk
 
 ```
-SW-1F(config-if)#switchport trunk allowed vlan 10-20
+SW-1F(config-if)#switchport trunk allowed vlan 10,20
 ```
 
 - The first command (`allo`) is an incomplete attempt, later corrected by the second one.
@@ -72,7 +72,7 @@ SW-1F(config-if)#switchport trunk allowed vlan 10-20
 
 ```
 interface FastEthernet3/1
- switchport trunk allowed vlan 10-20
+ switchport trunk allowed vlan 10,20
  switchport mode trunk
 ```
 
