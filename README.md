@@ -1,5 +1,7 @@
 # Packet Tracer Labs
 
+<img src="https://github.com/RykerWilder/static_files/blob/main/packet-tracer-labs.webp" alt="Splunk SOC Lab">
+
 A collection of networking projects created with Cisco Packet Tracer. Each project is a .pkt file with a working topology, documented in detail in a dedicated markdown file in the [`docs/`](docs) folder.
 
 ## Purpose of the Repo
