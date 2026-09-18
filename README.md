@@ -21,6 +21,7 @@ This repository serves as:
 | **VLAN Trunk Configuration** | Configuring an 802.1Q trunk between two switches to allow hosts on the same VLAN (IT and HR) to communicate when physically connected to different switches. | [`.pkt`](VLAN_Trunk_Configuration.pkt) | [`docs/VLAN_Trunk-Configuration.md`](docs/VLAN_Trunk-Configuration.md) |
 | **RIP Routing Configuration** | Configuring dynamic routing with RIP on three routers connected in a triangular topology (Router0, Router1, Router2), each with a LAN, to allow full reachability between the 192.168.1.0/24, 192.168.2.0/24, and 192.168.3.0/24 networks without static routes. | [`.pkt`](RIP_Routing_Configuration.pkt) | [`docs/RIP_Routing_Configuration.md`](docs/RIP_Routing_Configuration.md) |
 | **Spanning Tree Protocol Configuration** | Configuring a LAN network composed of three switches (SW1, SW2, SW3) connected together in a redundant triangular topology, to which four client laptops are connected. | [`.pkt`](Spanning_Tree_Protocol_Configuration.pkt) | [`docs/Spanning_Tree_Protocol_Configuration.md`](docs/Spanning_Tree_Protocol_Configuration.md) |
+| **NTP Server Configuration** | Configuring an NTP server connected via a switch to three router clients, to synchronize the system clock of all network devices to a single, centralized and reliable time source. | [`.pkt`](NTP_Server_Configuration.pkt) | [`docs/NTP_Server_Configuration.md`](docs/NTP_Server_Configuration.md) |
 
 > The table will be updated as new projects are added to the repository.
 
